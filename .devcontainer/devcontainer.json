@@ -3,6 +3,8 @@
 	"build": {
     	"dockerfile": "../devcontainer.Dockerfile"
     },
+	"initializeCommand": "bash .devcontainer/devconfigs-parser/initializeCommand.sh ${localWorkspaceFolder}",
+  	"postStartCommand": "bash .devcontainer/devconfigs-parser/postStartCommand.sh ${containerWorkspaceFolder}",
 	"mounts": ["source=/run/host-services/ssh-auth.sock,target=/run/host-services/ssh-auth.sock,type=bind"],
 	"overrideCommand": true,
 	"customizations": {

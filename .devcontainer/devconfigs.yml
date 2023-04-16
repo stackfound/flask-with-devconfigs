@@ -1,0 +1,14 @@
+repositories:
+    stackfound: https://github.com/stackfound/devconfigs.git
+dependencies:
+launchers:
+  stackfound:
+    flask:
+tasks:
+  stackfound:
+    dotbot:
+      repo: https://github.com/stackfound/dotfiles.git
+    flask:
+      directory: flask
+      port: 5051
+    fish:

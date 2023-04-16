@@ -1,0 +1,3 @@
+[submodule ".devcontainer/devconfigs-parser"]
+	path = .devcontainer/devconfigs-parser
+	url = https://github.com/stackfound/devconfigs-parser.git
